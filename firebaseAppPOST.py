@@ -20,6 +20,6 @@ class Post():
 				'expiring': self.args[1]
 			}
 
-			result = self.firebase.post("/user",data)
+			result = self.firebase.post("/new_game",data)
 
 		print("\nElement added.")
